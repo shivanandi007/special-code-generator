@@ -4,7 +4,15 @@
   padding: 0;
   text-align: center;
   align-items: center;
-  background-color: rgb(191, 193, 194);
+
+}
+h1{
+  color: brown
+}
+body{
+  background-image: url("./photo-1535223289827-42f1e9919769.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /*For each header in the page */
@@ -80,3 +88,10 @@ b{
      text-align: justify;
      padding: 10px;
 }
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  body{
+    padding:inherit;
+
+  }
+  }
